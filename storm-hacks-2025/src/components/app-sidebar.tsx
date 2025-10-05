@@ -13,15 +13,16 @@ import {
 
 // Menu items.
 const items = [
+  
   {
-    title: "Single Search",
-    url: "#find",
+    title: "Home",
+    url: "#Hero",
     icon: Home,
   },
   {
-    title: "Settings",
-    url: "#",
-    icon: Settings,
+    title: "Single Search",
+    url: "#find",
+    icon: Search,
   },
 ]
 
@@ -30,7 +31,7 @@ export default function AppSidebar() {
     <Sidebar>
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel>Application</SidebarGroupLabel>
+          <SidebarGroupLabel></SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => (

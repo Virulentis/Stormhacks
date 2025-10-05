@@ -31,14 +31,14 @@ function App() {
 
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-    
-    <Hero />
+  
+  <Hero />
 
     
     
 
     
-  <div className="fixed top-0 left-0 right-0 bottom-0 z-50">
+  <div className="min-h-screen">
   <SidebarProvider>
     <AppSidebar />
     <SidebarInset className="flex flex-col">
@@ -70,6 +70,7 @@ function App() {
   </SidebarProvider>
   </div>
   <div className=''> </div>
+     
      
   
 
