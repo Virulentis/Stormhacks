@@ -1,5 +1,5 @@
 # TGC Card Finder
-This is the repo made for the stormhacks 2025 event. It's a website that scrapes and aggregates TCG Card data (name, price, etc) from multiple online card shopping websites.
+This is the repo made for the stormhacks 2025 event. It's a website that scrapes and aggregates TCG Card data (name, price, etc) from multiple online card shopping websites. It can also perform basic data analytics to the cards. This project uses ReactJS for the front-end and C++ for the back-end (+ Python for the web scraping).
 
 # Diagram
-<img width="1464" height="1130" alt="image" src="https://github.com/user-attachments/assets/1b2a53e9-6ea4-43d4-947e-053c0a574f60" />
+<img width="641" height="601" alt="image" src="https://github.com/user-attachments/assets/a46a26e5-a657-42cd-bfe3-6f34d123d8c0" />
