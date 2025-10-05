@@ -169,13 +169,16 @@ export default function CardScrollArea() {
   };
 
   const copy_to_clipboard = (text) => {
-    navigator.clipboard.writeText(text).then(() => {
-      console.log('Text copied to clipboard');
-    }).catch(err => {
-      console.error('Error in copying text: ', err);
-    });
-  }
-
+  const items = JSON.parse(text);
+  const output = items.map((item) => `${item.Name}, ${item.Retailer}, ${item.Price_Min} - ${item.Price_Max}`).join(', ');
+  
+  navigator.clipboard.writeText(output).then(() => {
+    console.log('Text copied to clipboard');
+    console.log('CLI', output);
+  }).catch(err => {
+    console.error('Error in copying text: ', err);
+  });
+}
   const totalMin = calculateTotalMinPrice();
   const totalMax = calculateTotalMaxPrice();
   
