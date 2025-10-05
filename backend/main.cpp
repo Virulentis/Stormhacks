@@ -1,41 +1,40 @@
-#include "include/httplib.h"
-#include "include/json.hpp"
-#include <fstream>
+#include "crow.h"
+#include "json.hpp"
+#include "models.h"
+#include "services.h"
+
+#include <iostream>
+#include <thread>
+#include <chrono>
+
 using json = nlohmann::json;
 
-json load_data() {
-    std::ifstream f("data/scraped_401.json");
-    if (!f.is_open()) return json::array();
-    json j; f >> j;
-    return j;
-}
-
 int main() {
-    httplib::Server svr;
+    crow::SimpleApp app;
 
-    svr.Get("/", [](const httplib::Request&, httplib::Response& res){
-        res.set_content("Card Tracker API (cpp-httplib) running on macOS", "text/plain");
+    // Create a configuration
+    CardService::Options opt;
+    opt.json_path = "data/all_cards.json";
+    opt.refresh_seconds = 60;
+    //opt.redis_host = "127.0.0.1"; // if you have redis open it, please test json file first and then open it 
+
+    // Creating a service instance
+    CardService service(opt);
+
+    // Start the automatic refresh thread
+    service.startRefresher();
+
+    // Registering Routes
+    CROW_ROUTE(app, "/cards")
+    ([&]() {
+        auto cards = service.getAllCards();
+        json j = cards;
+        return crow::response{j.dump(2)};
     });
 
-    svr.Get("/cards", [](const httplib::Request&, httplib::Response& res){
-        json data = load_data();
-        res.set_content(data.dump(2), "application/json");
-        res.set_header("Access-Control-Allow-Origin", "*");
-    });
+    // Starting HTTP 
+    app.port(18080).multithreaded().run();
 
-    svr.Get(R"(/cards/(.+))", [](const httplib::Request& req, httplib::Response& res){
-        std::string name = req.matches[1];
-        json data = load_data();
-        json filtered = json::array();
-        for (auto &item : data) {
-            if (item.contains("name")) {
-                std::string nm = item["name"].get<std::string>();
-                if (nm.find(name) != std::string::npos) filtered.push_back(item);
-            }
-        }
-        res.set_content(filtered.dump(2), "application/json");
-        res.set_header("Access-Control-Allow-Origin", "*");
-    });
-
-    svr.listen("0.0.0.0", 8080);
+    // Stop refreshing threads when the program exits
+    service.stopRefresher();
 }

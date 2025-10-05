@@ -1,0 +1,3 @@
+/Users/charlottegao/hacker/backend/build/CMakeFiles/server.dir
+/Users/charlottegao/hacker/backend/build/CMakeFiles/edit_cache.dir
+/Users/charlottegao/hacker/backend/build/CMakeFiles/rebuild_cache.dir
