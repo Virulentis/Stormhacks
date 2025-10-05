@@ -48,5 +48,6 @@ export default function AppSidebar() {
         </SidebarGroup>
       </SidebarContent>
     </Sidebar>
+
   )
 }
