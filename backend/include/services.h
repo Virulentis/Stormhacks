@@ -21,11 +21,11 @@
 class CardService {
 public:
     struct Options {
-        std::string json_path = "../../data/all_cards.json"; ///< Local JSON file path
-        int refresh_seconds = 60;                       ///< Refresh interval in seconds
-        std::string redis_host = "127.0.0.1";                    ///< Redis hostname (optional)
-        int redis_port = 6379;                          ///< Redis port
-        std::string redis_key = "cards_snapshot";       ///< Redis storage key
+        std::string json_path = "../../data/all_cards.json"; //Local JSON file path
+        int refresh_seconds = 60;                       //Refresh interval in seconds
+        std::string redis_host = "127.0.0.1";                    // Redis hostname (optional)
+        int redis_port = 6379;                          //Redis port
+        std::string redis_key = "cards_snapshot";       //Redis storage key
     };
 
     /**

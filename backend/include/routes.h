@@ -17,7 +17,7 @@ public:
         CROW_ROUTE(app, "/api/refresh")
         ([&service] {
             bool ok = service.refreshNow();
-            return crow::response(ok ? "✅ Refreshed successfully" : "❌ Refresh failed");
+            return crow::response(ok ? " Refreshed successfully" : "Refresh failed");
         });
 
         // health check
