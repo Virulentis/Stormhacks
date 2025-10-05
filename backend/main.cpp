@@ -14,9 +14,9 @@ int main() {
 
     // Create a configuration
     CardService::Options opt;
-    opt.json_path = "data/all_cards.json";
+    opt.json_path = "../data/all_cards.json";
     opt.refresh_seconds = 60;
-    //opt.redis_host = "127.0.0.1"; // if you have redis open it, please test json file first and then open it 
+    opt.redis_host = "127.0.0.1"; // if you have redis open it, please test json file first and then open it 
 
     // Creating a service instance
     CardService service(opt);

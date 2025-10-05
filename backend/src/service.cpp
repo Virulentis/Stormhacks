@@ -1,32 +1,32 @@
 #include "services.h"
 #include <fstream>
 #include <iostream>
+#include <unordered_map>
 #include <nlohmann/json.hpp>
 
 using json = nlohmann::json;
 
 /**
- * Constructor: initialize CardService with options
- * - Optionally connects to Redis (if redis_host is set)
- * - Immediately loads card data (from JSON or Redis)
+ * @brief Constructor
+ *  • Optionally connects to Redis.
+ *  • Immediately loads JSON data into memory.
  */
 CardService::CardService(const Options& opt) : opt_(opt) {
     if (!opt_.redis_host.empty()) {
         redis_ = std::make_unique<RedisClient>(opt_.redis_host, opt_.redis_port);
         if (!redis_->connect()) {
-            std::cerr << "[Redis] connect failed, disabling Redis\n";
+            std::cerr << "[Redis] Connection failed — disabled.\n";
             redis_.reset();
         }
     }
     refreshNow();
 }
 
-// Destructor: stop background refresher thread safely
-CardService::~CardService() {
-    stopRefresher();
-}
+CardService::~CardService() { stopRefresher(); }
 
-// Start a background thread that refreshes the card cache periodically
+/**
+ * @brief Starts a background thread that periodically refreshes data.
+ */
 void CardService::startRefresher() {
     if (running_.exchange(true)) return;
     worker_ = std::thread([this] {
@@ -38,19 +38,25 @@ void CardService::startRefresher() {
     });
 }
 
-//Stop the background refresh thread
+/**
+ * @brief Stops the background refresher thread.
+ */
 void CardService::stopRefresher() {
     if (!running_.exchange(false)) return;
     if (worker_.joinable()) worker_.join();
 }
 
-// Return a thread-safe copy of the current cached card list
+/**
+ * @brief Returns the in-memory cached cards.
+ */
 std::vector<Card> CardService::getAllCards() const {
     std::lock_guard<std::mutex> lk(mtx_);
     return cache_;
 }
 
-// Refresh the in-memory cache with the latest JSON data
+/**
+ * @brief Forces an immediate refresh from JSON (and optionally pushes to Redis).
+ */
 bool CardService::refreshNow() {
     std::vector<Card> latest;
     if (!loadFromJson(latest)) return false;
@@ -63,40 +69,55 @@ bool CardService::refreshNow() {
     return true;
 }
 
-// Load from disk
+/**
+ * @brief Loads card data from a JSON file, skipping malformed entries.
+ *  Also prints a retailer breakdown summary for debugging.
+ */
 bool CardService::loadFromJson(std::vector<Card>& out) {
     std::ifstream f(opt_.json_path);
-    if (!f) return false;
-    json j;
-    f >> j;
-    out = j.get<std::vector<Card>>();
-    return true;
-}
-
-// Push current card data to Redis 
-// This allows other services or instances to access cached data quickly
-bool CardService::pushToRedis(const std::vector<Card>& data) {
-    std::cout << "[CardService] pushing to Redis " << data.size() << " cards..." << std::endl;
-
-    if (!redis_) {
-        std::cout << "[CardService] Redis not initialized, skip push." << std::endl;
+    if (!f) {
+        std::cerr << "[CardService] Failed to open " << opt_.json_path << "\n";
         return false;
     }
 
-    json j = data;
-    std::string dump = j.dump();
+    json j;
+    f >> j;
+    out.clear();
 
-    bool ok = redis_->set(opt_.redis_key, dump);
-    if (ok)
-        std::cout << "[CardService] Successfully pushed to Redis key: " 
-                  << opt_.redis_key << std::endl;
-    else
-        std::cout << "[CardService] Failed to push to Redis." << std::endl;
+    int skipped = 0;
+    for (const auto& item : j) {
+        try {
+            out.push_back(item.get<Card>());
+        } catch (...) {
+            skipped++;
+        }
+    }
 
-    return ok;
+    // Print summary to help verify dataset size
+    std::unordered_map<std::string, int> count;
+    for (auto& c : out) count[c.retailer]++;
+
+    std::cout << "[CardService] Successfully loaded " << out.size()
+              << " cards. Skipped " << skipped << " malformed.\n";
+    std::cout << "[CardService] Retailer breakdown:\n";
+    for (auto& [r, n] : count)
+        std::cout << "  - " << r << ": " << n << " cards\n";
+
+    return true;
 }
 
-// Load cached card data from Redis instead of JSON
+/**
+ * @brief Pushes the current cache to Redis for persistence.
+ */
+bool CardService::pushToRedis(const std::vector<Card>& data) {
+    if (!redis_) return false;
+    json j = data;
+    return redis_->set(opt_.redis_key, j.dump());
+}
+
+/**
+ * @brief Loads cached data from Redis (if available).
+ */
 bool CardService::loadFromRedis(std::vector<Card>& out) {
     if (!redis_) return false;
     std::string s = redis_->get(opt_.redis_key);
