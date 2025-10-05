@@ -14,6 +14,8 @@ import {
 import { useState, useEffect } from 'react'
 
 
+
+
 export default function CardScrollArea() {
     const [data, setData] = useState([])
 
@@ -28,7 +30,7 @@ export default function CardScrollArea() {
                 </CardHeader>
                 <CardContent>
                 <p className="text-sm text-gray-600 mb-4">{item.description}</p>
-                ...
+                
                 </CardContent>
             </Card>
             ))}

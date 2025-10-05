@@ -1,6 +1,4 @@
 
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { ThemeProvider } from "@/components/theme-provider"
 import {
@@ -18,6 +16,27 @@ import AppSidebar from './components/app-sidebar'
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
 
 import { useState, useEffect } from 'react'
+import express from 'express';
+import redisClient from './redis.js';
+
+const app = express();
+
+
+async function startServer() {
+  try {
+    // Redis connection happens in redis.js
+    console.log('Redis connected successfully');
+    
+    app.listen(3000, () => {
+      console.log('Server running on port 3000');
+    });
+  } catch (error) {
+    console.error('Failed to start server:', error);
+    process.exit(1);
+  }
+}
+  
+startServer();
 
 
 function App() {
@@ -72,17 +91,6 @@ function App() {
 
 
     <CardScrollArea/>
-
-
-
-    
-
-
-
-
-
-    
-
 
       
 
