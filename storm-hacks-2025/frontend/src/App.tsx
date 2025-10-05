@@ -29,6 +29,9 @@ function App() {
   const [isSearchExpanded, setIsSearchExpanded] = useState(false);
 
 
+  
+
+
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
   
@@ -53,9 +56,9 @@ function App() {
           <p>Card Finder</p>
           <div id="find" className="flex-1">
             <InputGroup>
-              <InputGroupInput placeholder="Enter Card here!" />
+              <InputGroupInput placeholder="Enter Card here!"  />
               <InputGroupAddon align="inline-end">
-                <InputGroupButton variant="secondary">Search</InputGroupButton>
+                <InputGroupButton variant="secondary"  onClick={() => ( console.log("test") )} >Search</InputGroupButton>
               </InputGroupAddon>
             </InputGroup>
           </div>
