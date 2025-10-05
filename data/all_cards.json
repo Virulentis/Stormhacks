@@ -1,442 +1,782 @@
 [
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - 010/078 - Rare Holo [pgo-010] [Holo]",
-    "Price_Min": "1.99",
-    "Price_Max": "2.49",
-    "Available": true,
+    "Price": "1.99",
+    "Stock": "In Stock",
     "Retailer": "FaceToFaceGames",
-    "Vendor": "Pokémon",
-    "Type": "Singles",
+    "Edition": "Singles",
+    "Foil": "Yes",
+    "Art Card": "No",
     "URL": "https://facetofacegames.com/products/charizard-010078-rare-holo-pgo-010-holo?_pos=1&_psq=charizard&_ss=e&_v=1.0",
     "Image": "https://cdn.shopify.com/s/files/1/0574/4692/4324/files/c89f3a333f69c5d7f2374b4618e86d5d2f027604_Asset_PKM_PGO_010_ENG_H_jpg.jpg?v=1737591869",
-    "Timestamp": "2025-10-05T04:47:47.678687"
+    "Timestamp": "2025-10-05T05:02:05.581452"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard V - 019/189 - Rare Ultra [swsh3-019] [Ultra]",
-    "Price_Min": "5.59",
-    "Price_Max": "7.99",
-    "Available": true,
+    "Price": "5.59",
+    "Stock": "In Stock",
     "Retailer": "FaceToFaceGames",
-    "Vendor": "Pokémon",
-    "Type": "Singles",
+    "Edition": "Singles",
+    "Foil": "No",
+    "Art Card": "No",
     "URL": "https://facetofacegames.com/products/charizard-v-019189-rare-ultra-swsh3-019-ultra?_pos=2&_psq=charizard&_ss=e&_v=1.0",
     "Image": "https://cdn.shopify.com/s/files/1/0574/4692/4324/files/f33e39c7eb904d0f7d6650ca96d3501539671d64_Asset_PKM_SWSH3_019_ENG_U_jpg.jpg?v=1737598395",
-    "Timestamp": "2025-10-05T04:47:47.678721"
+    "Timestamp": "2025-10-05T05:02:05.581471"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard-EX - XY17 - Promo [xyp-XY17] [Ultra]",
-    "Price_Min": "31.49",
-    "Price_Max": "44.99",
-    "Available": true,
+    "Price": "31.49",
+    "Stock": "In Stock",
     "Retailer": "FaceToFaceGames",
-    "Vendor": "Pokémon",
-    "Type": "Singles",
+    "Edition": "Singles",
+    "Foil": "No",
+    "Art Card": "No",
     "URL": "https://facetofacegames.com/products/charizard-ex-xy17-promo-xyp-xy17-ultra?_pos=3&_psq=charizard&_ss=e&_v=1.0",
     "Image": "https://cdn.shopify.com/s/files/1/0574/4692/4324/files/abc763832aa4524718850e47073757e5efe27833_Asset_PKM_XYP_XY17_ENG_U_jpg.jpg?v=1737601730",
-    "Timestamp": "2025-10-05T04:47:47.678734"
+    "Timestamp": "2025-10-05T05:02:05.581479"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard-EX - 11/83 - Rare Holo EX [g1-11] [Ultra]",
-    "Price_Min": "19.59",
-    "Price_Max": "27.99",
-    "Available": true,
+    "Price": "19.59",
+    "Stock": "In Stock",
     "Retailer": "FaceToFaceGames",
-    "Vendor": "Pokémon",
-    "Type": "Singles",
+    "Edition": "Singles",
+    "Foil": "Yes",
+    "Art Card": "No",
     "URL": "https://facetofacegames.com/products/charizard-ex-1183-rare-holo-ex-g1-11-ultra?_pos=4&_psq=charizard&_ss=e&_v=1.0",
     "Image": "https://cdn.shopify.com/s/files/1/0574/4692/4324/files/493b9258856615d83b484f4e3cbac5c3e5f88964_Asset_PKM_G1_11_ENG_U_jpg.jpg?v=1737590661",
-    "Timestamp": "2025-10-05T04:47:47.678743"
+    "Timestamp": "2025-10-05T05:02:05.581485"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard V - 018/159 - Rare Holo V [swsh125-018] [Ultra]",
-    "Price_Min": "3.49",
-    "Price_Max": "4.99",
-    "Available": true,
+    "Price": "3.49",
+    "Stock": "In Stock",
     "Retailer": "FaceToFaceGames",
-    "Vendor": "Pokémon",
-    "Type": "Singles",
+    "Edition": "Singles",
+    "Foil": "Yes",
+    "Art Card": "No",
     "URL": "https://facetofacegames.com/products/charizard-v-018159-rare-holo-v-swsh125-018-ultra?_pos=5&_psq=charizard&_ss=e&_v=1.0",
     "Image": "https://cdn.shopify.com/s/files/1/0574/4692/4324/files/7a7565f6f39c02e6e74df5ff394cb364ceb2e3d7_Asset_PKM_SWSH125_018_ENG_U_jpg.jpg?v=1737597514",
-    "Timestamp": "2025-10-05T04:47:47.678750"
+    "Timestamp": "2025-10-05T05:02:05.581490"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Pokemon - Charizard ex Special Collection",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/pokemon-charizard-ex-special-collection?_pos=1&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.202643"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/pokemon-charizard-ex-special-collection?_pos=1&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.160729"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Pokemon - Sword & Shield - Ultra Premium Collection - Charizard",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/pokemon-sword-shield-ultra-premium-collection-charizard?_pos=2&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.203218"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/pokemon-sword-shield-ultra-premium-collection-charizard?_pos=2&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.161280"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard Spirit Link - 75/108 - Uncommon",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-spirit-link-75-108-uncommon?_pos=3&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.203764"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-spirit-link-75-108-uncommon?_pos=3&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.161800"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Pokemon - Celebrations - Collection Box - Lance's Charizard V",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/pokemon-celebrations-collection-box-lances-charizard-v?_pos=4&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.204296"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/pokemon-celebrations-collection-box-lances-charizard-v?_pos=4&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.162314"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Ultra Pro - Zip Binder 12 Pocket - Pokemon - Charizard",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/ultra-pro-zip-binder-12-pocket-pokemon-charizard?_pos=5&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.204817"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/ultra-pro-zip-binder-12-pocket-pokemon-charizard?_pos=5&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.162815"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard GX - SM211 - Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-gx-sm211-promo?_pos=6&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.205307"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-gx-sm211-promo?_pos=6&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.163297"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - 001/015 - Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-001-015-promo?_pos=7&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.205785"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-001-015-promo?_pos=7&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.163757"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - 11/108 - Holo Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-11-108-holo-rare?_pos=8&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.206252"
+    "Edition": "Unknown",
+    "Foil": "Yes",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-11-108-holo-rare?_pos=8&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.164212"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard V - SWSH260 - Alternate Art Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-v-swsh260-alternate-art-promo?_pos=9&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.206717"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "Yes",
+    "URL": "https://store.401games.ca/products/charizard-v-swsh260-alternate-art-promo?_pos=9&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.164654"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard & Braixen GX - 22/236 - Ultra Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-braixen-gx-22-236-ultra-rare?_pos=10&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.207178"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-braixen-gx-22-236-ultra-rare?_pos=10&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.165091"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - 4/102 - Holo Rare (Classic Collection)",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-4-102-holo-rare-classic-collection?_pos=11&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.207623"
+    "Edition": "Unknown",
+    "Foil": "Yes",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-4-102-holo-rare-classic-collection?_pos=11&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.165516"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard ex - 228/197 - Gold Secret Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-ex-228-197-gold-secret-rare?_pos=12&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.208055"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-ex-228-197-gold-secret-rare?_pos=12&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.165938"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Lance's Charizard V - SWSH133 - Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/lances-charizard-v-swsh133-promo?_pos=13&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.208471"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/lances-charizard-v-swsh133-promo?_pos=13&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.166348"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Reshiram & Charizard GX - SM247 - Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/reshiram-charizard-gx-sm247-promo?_pos=14&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.208878"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/reshiram-charizard-gx-sm247-promo?_pos=14&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.166739"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard GX - 20/147 - Ultra Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-gx-20-147-ultra-rare?_pos=15&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.209306"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-gx-20-147-ultra-rare?_pos=15&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.167121"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Ultra Pro - Alcove Deck Box - Pokemon - Charizard",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/ultra-pro-alcove-deck-box-pokemon-charizard?_pos=16&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.209719"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/ultra-pro-alcove-deck-box-pokemon-charizard?_pos=16&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.167495"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Pokemon - Kanto Power Mini Tin - Charizard",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/pokemon-kanto-power-mini-tin-charizard?_pos=17&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.210110"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/pokemon-kanto-power-mini-tin-charizard?_pos=17&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.167859"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard EX - XY17 - Ultra Rare Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-ex-xy17-ultra-rare-promo?_pos=18&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.210487"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-ex-xy17-ultra-rare-promo?_pos=18&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.168217"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - 1/99 - Holo Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-1-99-holo-rare?_pos=19&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.210850"
+    "Edition": "Unknown",
+    "Foil": "Yes",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-1-99-holo-rare?_pos=19&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.168574"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - 103/100 - Ultra Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-103-100-ultra-rare?_pos=20&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.211195"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-103-100-ultra-rare?_pos=20&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.168915"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - SM226 - Holo Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-sm226-holo-promo?_pos=21&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.211526"
+    "Edition": "Unknown",
+    "Foil": "Yes",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-sm226-holo-promo?_pos=21&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.169245"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - RC5/RC32 - Uncommon",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-rc5-rc32-uncommon?_pos=22&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.211847"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-rc5-rc32-uncommon?_pos=22&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.169579"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard GX - SM60 - Full Art Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-gx-sm60-full-art-promo?_pos=23&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.212166"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "Yes",
+    "URL": "https://store.401games.ca/products/charizard-gx-sm60-full-art-promo?_pos=23&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.169891"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - TG03/TG30 - Holo Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-tg03-tg30-holo-rare?_pos=24&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.212472"
+    "Edition": "Unknown",
+    "Foil": "Yes",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-tg03-tg30-holo-rare?_pos=24&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.170191"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - 19/113 - Holo Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-19-113-holo-rare?_pos=25&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.212770"
+    "Edition": "Unknown",
+    "Foil": "Yes",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-19-113-holo-rare?_pos=25&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.170487"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard EX - XY121 - Ultra Rare Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-ex-xy121-ultra-rare-promo?_pos=26&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.213062"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-ex-xy121-ultra-rare-promo?_pos=26&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.170772"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - 6/108 - Holo Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-6-108-holo-rare?_pos=27&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.213341"
+    "Edition": "Unknown",
+    "Foil": "Yes",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-6-108-holo-rare?_pos=27&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.171047"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard G LV.X - 143/147 - Ultra Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-g-lv-x-143-147-ultra-rare?_pos=28&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.213605"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-g-lv-x-143-147-ultra-rare?_pos=28&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.171313"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard G - 20/147 - Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-g-20-147-rare?_pos=29&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.213861"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-g-20-147-rare?_pos=29&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.171574"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - 20/149 - Holo Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-20-149-holo-rare?_pos=30&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.214111"
+    "Edition": "Unknown",
+    "Foil": "Yes",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-20-149-holo-rare?_pos=30&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.171811"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Dark Charizard - 21/82 - Rare - Unlimited",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/dark-charizard-21-82-rare-unlimited?_pos=31&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.214362"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/dark-charizard-21-82-rare-unlimited?_pos=31&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.172039"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - 3/132 - Holo Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-3-132-holo-rare?_pos=32&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.214618"
+    "Edition": "Unknown",
+    "Foil": "Yes",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-3-132-holo-rare?_pos=32&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.172258"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "M Charizard EX - 69/106 - Ultra Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/m-charizard-ex-69-106-ultra-rare?_pos=33&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.214888"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/m-charizard-ex-69-106-ultra-rare?_pos=33&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.172472"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard VSTAR - SWSH262 - Alternate Art Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-vstar-swsh262-alternate-art-promo?_pos=34&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.215116"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "Yes",
+    "URL": "https://store.401games.ca/products/charizard-vstar-swsh262-alternate-art-promo?_pos=34&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.172674"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - 1/99 - Shattered Holo Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-1-99-shattered-holo-promo?_pos=35&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.215320"
+    "Edition": "Unknown",
+    "Foil": "Yes",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-1-99-shattered-holo-promo?_pos=35&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.172874"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard VMAX - 074/073 - Hyper Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-vmax-074-073-hyper-rare?_pos=36&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.215513"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-vmax-074-073-hyper-rare?_pos=36&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.173063"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard VMAX - SV107/SV122 - Shiny Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-vmax-sv107-sv122-shiny-rare?_pos=37&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.215698"
+    "Edition": "Unknown",
+    "Foil": "Yes",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-vmax-sv107-sv122-shiny-rare?_pos=37&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.173241"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - 20/149 - Alternate Holo - Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-20-149-alternate-holo-promo?_pos=38&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.215872"
+    "Edition": "Unknown",
+    "Foil": "Yes",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-20-149-alternate-holo-promo?_pos=38&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.173408"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "M Charizard EX - 12/83 - Ultra Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/m-charizard-ex-12-83-ultra-rare?_pos=39&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.216035"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/m-charizard-ex-12-83-ultra-rare?_pos=39&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.173569"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Cynthia (#21 Charizard Stamped) - 119/156 - Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/cynthia-21-charizard-stamped-119-156-promo?_pos=40&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.216189"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/cynthia-21-charizard-stamped-119-156-promo?_pos=40&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.173717"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - 11/108 - Pre-Release Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-11-108-pre-release-promo?_pos=41&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.216334"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-11-108-pre-release-promo?_pos=41&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.173856"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard V - 079/073 - Shiny Secret Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-v-079-073-shiny-secret-rare?_pos=42&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.216470"
+    "Edition": "Unknown",
+    "Foil": "Yes",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-v-079-073-shiny-secret-rare?_pos=42&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.173987"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Salazzle (#7 Charizard Stamped) - 034/236 - Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/salazzle-7-charizard-stamped-034-236-promo?_pos=43&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.216607"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/salazzle-7-charizard-stamped-034-236-promo?_pos=43&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.174109"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "M Charizard EX - 13/106 - Ultra Rare",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/m-charizard-ex-13-106-ultra-rare?_pos=44&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.216725"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/m-charizard-ex-13-106-ultra-rare?_pos=44&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.174221"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Eevee (#26 Charizard Stamped) - 049/068 - Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/eevee-26-charizard-stamped-049-068-promo?_pos=45&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.216833"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/eevee-26-charizard-stamped-049-068-promo?_pos=45&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.174325"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard - 1/99 - Holo Rare - Reverse Holo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-1-99-holo-rare-reverse-holo?_pos=46&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.216928"
+    "Edition": "Unknown",
+    "Foil": "Yes",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-1-99-holo-rare-reverse-holo?_pos=46&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.174420"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Hau (#52 Charizard Stamped) - 120/149 - Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/hau-52-charizard-stamped-120-149-promo?_pos=47&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.217018"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/hau-52-charizard-stamped-120-149-promo?_pos=47&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.174505"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Reshiram & Charizard GX - SM201 - Alternate Art Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/reshiram-charizard-gx-sm201-alternate-art-promo?_pos=48&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.217094"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "Yes",
+    "URL": "https://store.401games.ca/products/reshiram-charizard-gx-sm201-alternate-art-promo?_pos=48&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.174581"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Salazzle (#49 Charizard Stamped) - 034/236 - Promo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/salazzle-49-charizard-stamped-034-236-promo?_pos=49&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.217163"
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/salazzle-49-charizard-stamped-034-236-promo?_pos=49&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.174650"
   },
   {
+    "Card Condition": "Near Mint",
     "Name": "Charizard G - 20/147 - Rare - Reverse Holo",
     "Price": "N/A",
+    "Stock": "Unknown",
     "Retailer": "401Games",
-    "URL": "https://store.401games.ca/products/charizard-g-20-147-rare-reverse-holo?_pos=50&_sid=40a4375e6&_ss=r",
-    "Timestamp": "2025-10-05T04:47:48.217224"
+    "Edition": "Unknown",
+    "Foil": "Yes",
+    "Art Card": "No",
+    "URL": "https://store.401games.ca/products/charizard-g-20-147-rare-reverse-holo?_pos=50&_sid=889e74c85&_ss=r",
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:06.174709"
   },
   {
+    "Card Condition": "Unknown",
     "Name": "Charizard Ex Special Collection",
+    "Price": "Unknown",
+    "Stock": "Unknown",
     "Retailer": "KanataCG",
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
     "URL": "https://kanatacg.crystalcommerce.com/products/search?query=charizard",
-    "Timestamp": "2025-10-05T04:47:54.945817"
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:15.958361"
   },
   {
+    "Card Condition": "Unknown",
     "Name": "Collector Chest Tin 2023 (Charizard)",
+    "Price": "Unknown",
+    "Stock": "Unknown",
     "Retailer": "KanataCG",
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
     "URL": "https://kanatacg.crystalcommerce.com/products/search?query=charizard",
-    "Timestamp": "2025-10-05T04:47:54.945853"
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:15.958403"
   },
   {
+    "Card Condition": "Unknown",
     "Name": "Pokemon Charizard Ex Special Collection",
+    "Price": "Unknown",
+    "Stock": "Unknown",
     "Retailer": "KanataCG",
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
     "URL": "https://kanatacg.crystalcommerce.com/products/search?query=charizard",
-    "Timestamp": "2025-10-05T04:47:54.945863"
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:15.958414"
   },
   {
+    "Card Condition": "Unknown",
     "Name": "Deck Box - Alcove Flip - Pokemon Charizard 100+",
+    "Price": "Unknown",
+    "Stock": "Unknown",
     "Retailer": "KanataCG",
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
     "URL": "https://kanatacg.crystalcommerce.com/products/search?query=charizard",
-    "Timestamp": "2025-10-05T04:47:54.945870"
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:15.958424"
   },
   {
+    "Card Condition": "Unknown",
     "Name": "Ultra Pro Alcove Flip Pokemon Elite Series Charizard",
+    "Price": "Unknown",
+    "Stock": "Unknown",
     "Retailer": "KanataCG",
+    "Edition": "Unknown",
+    "Foil": "No",
+    "Art Card": "No",
     "URL": "https://kanatacg.crystalcommerce.com/products/search?query=charizard",
-    "Timestamp": "2025-10-05T04:47:54.945878"
+    "Image": "",
+    "Timestamp": "2025-10-05T05:02:15.958433"
   }
 ]
