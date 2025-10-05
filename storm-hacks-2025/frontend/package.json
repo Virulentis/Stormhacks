@@ -4,12 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "docker-compose up -d && vite",
+    "dev:only": "vite",
+    "dev:dockerstart": "docker-compose up -d",
+    "dev:dockerstop": "docker-compose down",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "docker:start": "docker-compose up -d",
-    "docker:stop": "docker-compose down"
+    "preview": "vite preview"
+    
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
