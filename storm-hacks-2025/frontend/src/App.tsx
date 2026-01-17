@@ -16,8 +16,6 @@ import AppSidebar from './components/app-sidebar'
 import { SidebarProvider, SidebarTrigger, SidebarInset } from "@/components/ui/sidebar"
 
 import { useState, useEffect } from 'react'
-import express from 'express';
-import redisClient from './redis.js';
 
 
 
